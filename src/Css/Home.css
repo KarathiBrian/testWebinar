@@ -1,112 +1,127 @@
-body{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.outerBig{
-height: 80vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-/* background-color: beige; */
-}
-.containerHold{
-height: 100%;
-width: 100%;
-
-/* background: linear-gradient(150deg, #5D3F6A, rgba(230, 230, 250, 0.15) 45%, #F5E8C7); */
-/* background: linear-gradient(150deg, #5D3F6A, rgba(232, 236, 239, 0.15) 45%, #F7B32B); */
- 
-background: linear-gradient(135deg, #D3BCE3, rgba(106, 13, 173, 0.3) 30%, #F5CBA7); 
-animation: gradientShift 8s ease infinite; 
-/* background: linear-gradient(45deg, #FADADD, rgba(253, 216, 53, 0.15) 45%, #C1E1C1); */
-/* background: linear-gradient(135deg, #C3AED6, rgba(230, 230, 250, 0.1) 40%, #FFC107); */
-/* background: linear-gradient(45deg, #F7C8D8, rgba(244, 196, 48, 0.2) 40%, #A3D8D3); */
-/* background: linear-gradient(90deg, #FF9999, rgba(255, 209, 220, 0.15) 50%, #A9B7A0); */
-/* background: linear-gradient(135deg, #D3BCE3, rgba(106, 13, 173, 0.3) 30%, #F5CBA7); */
-
-/* background-image: url(../assets/pexels-codioful-7130555.jpg); */
-background-size: cover;
-background-position: center;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.holder{
-height: 90%;
-width: 70%;
-/* background-color: blueviolet; */
-display: flex;
-flex-direction: column;
-/* background-image: url(../assets/pexels-codioful-7130498.jpg); */
-border-radius: 20px;
-
-background-image: url(../assets/ad2.png);
-background-position: center;
-background-size: cover;
-
+.outerBig {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.up{
-height: 85%;
-width: 100%;
-/* background-color:blueviolet ; */
-border-radius: 10px 10px 0 0;
-/* background-image: url(../assets/ad2.png);
-background-position: center;
-background-size: cover; */
+.containerHold {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #D3BCE3, rgba(106, 13, 173, 0.3) 30%, #F5CBA7);
+  animation: gradientShift 8s ease infinite;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.down{
-height: 15%;
-width: 100%;
-/* background-color: darkorchid; */
-border-radius: 0 0 10px 10px;
-display: flex;
-gap: 80px;
-justify-content: center;
-align-items: center;
-background-color: #E8DDE2;
-/* background-color: #E6EAF0; */
-/* background-color: #F0E4D7; */
-  /* padding: 15px; */
+
+.holder {
+  height: 90%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.up {
+  height: 70%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.up img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.down {
+  height: 30%;
+  width: 100%;
+  background-color: #E8DDE2;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-.down button{
-height: 70%;
-width: 25%;
-border-radius: 10px;
-border: none;
 
-/* background-color: #6A0DAD; */
-/* background-color: #4A70A8; */
-/* background-color: #D35400; */
-background-color: #D35400;
-  color: #FFFFFF;
-  /* padding: 12px 30px; */
-  margin: 0 10px;
+.down button {
+  height: 45%;
+  width: 25%;
+  border-radius: 10px;
   border: none;
+  background-color: #D35400;
+  color: #FFFFFF;
+  margin: 0 10px;
   font-size: 1.1em;
   font-weight: 500;
   cursor: pointer;
-  text-decoration: none;
   transition: all 0.3s ease;
   box-shadow: 0 2px 5px rgba(106, 13, 173, 0.3);
-  display: inline-block;
-
-
 }
+
 .down button:hover {
   background-color: #5A82C1;
   transform: translateY(-2px) scale(1.05);
   box-shadow: 0 4px 10px rgba(106, 13, 173, 0.5);
+}
 
-@media (max-width: 600px) {
-  .button-container .btn {
-    display: block;
-    margin: 10px auto;
-    width: 70%;
+/* 💡 Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .outerBig {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .holder {
+    width: 90%;
+    height: auto;
+  }
+
+  .up {
+    height: auto;
+  }
+
+  .up img {
+    height: auto;
+    width: 100%;
+  }
+
+  .down {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .down button {
+    width: 80%;
+    height: 45px;
+    font-size: 1em;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .holder {
+    width: 95%;
+  }
+
+  .down button {
+    width: 90%;
+    font-size: 0.95em;
+  }
 }
