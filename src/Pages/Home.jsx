@@ -3,6 +3,7 @@ import "../Css/Home.css"
 import {Link} from "react-router-dom"
 import { useNavigate } from 'react-router-dom'
 import newImg from "../assets/nw1.jpg"
+import mobileImg from "../assets/nw2.jpg"
 
 const Home = () => {
 const navigate= useNavigate()
@@ -27,7 +28,7 @@ navigate("/details")
 
 
 <div className='up'>
-<img src={newImg} alt="" />
+<img src={mobileImg} alt="" />
 
 </div>
 
