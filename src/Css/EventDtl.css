@@ -1,0 +1,206 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #F9F6F2; /* Cream White */
+}
+
+.bigEvent {
+  height: 70vh;
+  width: 100%;
+}
+
+.contEvent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C9C5E0; /* Pale Plum to contrast with leftUp elements */
+}
+
+.upAbout {
+  height: 95%;
+  width: 70%;
+  display: flex;
+}
+
+.leftUp {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.whatHead {
+  height: 10%;
+  width: 100%;
+  background-color: #F0E8E0; /* Warm Ivory for a softer look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 0;
+}
+
+.whatHead h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 28px; /* Your size */
+  line-height: 1.4; /* Your line-height */
+  color: #2A677A; /* Deep Teal */
+  letter-spacing: 0.02em; /* Your spacing */
+  margin: 0; /* Your margin */
+}
+
+.leftUpContent {
+  height: 90%;
+  width: 100%;
+  background-color: #F0E8E0; /* Warm Ivory to match whatHead */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 0 10px;
+}
+
+.leftUpContent ul {
+  list-style: none;
+  padding: 0; /* Your padding */
+  margin: 0 0 12px 0; /* Your margin */
+  max-width: 100%; /* Your max-width */
+}
+
+.leftUpContent ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px; /* Your size */
+  line-height: 1.6; /* Your line-height */
+  color: #333333; /* Charcoal Gray */
+  margin-bottom: 8px; /* Your margin */
+  display: flex;
+  align-items: center;
+  word-break: break-word; /* Your word-break */
+}
+
+.leftUpContent ul li::before {
+  content: '♥'; /* Your icon */
+  font-size: 16px; /* Your size */
+  color: #F8B8C4; /* Blush Pink accent (from your code) */
+  margin-right: 8px; /* Your margin */
+}
+
+.leftUpContent h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 18px; /* Your size */
+  line-height: 1.5; /* Your line-height */
+  color: #333333; /* Charcoal Gray */
+  margin: 12px 0 0 0; /* Your margin */
+  max-width: 100%; /* Your max-width */
+  word-break: break-word; /* Your word-break */
+}
+
+.rightUp {
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(rgba(230, 234, 240, 0.2), rgba(230, 234, 240, 0.2)), url("../assets/m1.jpeg");
+  background-size: cover;
+  border-radius: 0 10px 10px 0;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .upAbout {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .leftUp, .rightUp {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .whatHead {
+    height: auto;
+    padding: 12px 0;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .leftUpContent {
+    padding: 16px;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .rightUp {
+    margin-top: 16px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .leftUpContent ul li {
+    font-size: 15px;
+  }
+
+  .leftUpContent h5 {
+    font-size: 17px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .bigEvent {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .contEvent {
+    align-items: flex-start;
+    padding: 0 10px;
+  }
+
+  .upAbout {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .leftUp, .rightUp {
+    width: 100%;
+    height: auto;
+  }
+
+  .rightUp {
+    height: 200px;
+    margin-top: 16px;
+    background-position: center;
+    border-radius: 10px;
+  }
+
+  .whatHead h3 {
+    font-size: 20px;
+  }
+
+  .leftUpContent ul li {
+    font-size: 14px;
+  }
+
+  .leftUpContent h5 {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+

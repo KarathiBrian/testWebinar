@@ -1,0 +1,31 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.nav{
+height: 5vh;
+width: 100%;
+
+}
+
+.innerNav{
+height: 100%;
+width: 100%;
+/* background-color: #2A4066; */
+background-color: #1A2A44;
+
+display: flex;
+justify-content: start;
+/* align-items: center; */
+
+}
+
+.innerNav img{
+margin-left: 80px;
+
+
+}
+

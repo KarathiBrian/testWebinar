@@ -1,0 +1,31 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.footerBig{
+height: 10vh;
+width: 100%;
+
+
+}
+
+
+
+.containerFooter{
+
+height: 100%;
+width: 100%;
+/* background: linear-gradient(to right, #D4A4EB, #F8C4B4); */
+background: linear-gradient(to right, #D8C4E2, #FAD1C4);
+
+color: #4A4A4A;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
