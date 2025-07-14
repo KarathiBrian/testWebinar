@@ -17,11 +17,10 @@ body {
   width: 100%;
   background: linear-gradient(135deg, #D3BCE3, rgba(106, 13, 173, 0.3) 30%, #F5CBA7);
   animation: gradientShift 8s ease infinite;
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .holder {
@@ -30,20 +29,18 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .up {
   height: 70%;
   width: 100%;
   border-radius: 10px 10px 0 0;
-  background-position: center;
-  background-size: cover;
 }
 
 .up img {
   height: 100%;
   width: 100%;
-  border-radius: 10px 10px 0 0;
   object-fit: cover;
 }
 
@@ -60,13 +57,12 @@ body {
 }
 
 .down button {
-  height: 45%;
+  height: 44%;
   width: 25%;
   border-radius: 10px;
   border: none;
   background-color: #D35400;
   color: #FFFFFF;
-  margin: 0 10px;
   font-size: 1.1em;
   font-weight: 500;
   cursor: pointer;
@@ -80,13 +76,9 @@ body {
   box-shadow: 0 4px 10px rgba(106, 13, 173, 0.5);
 }
 
-/* 💡 Mobile responsiveness */
-@media screen and (max-width: 768px) {
-  .outerBig {
-    height: auto;
-    padding: 20px 0;
-  }
+/* ✅ Mobile responsiveness only from here down */
 
+@media screen and (max-width: 768px) {
   .holder {
     width: 90%;
     height: auto;
@@ -105,7 +97,7 @@ body {
     flex-direction: column;
     gap: 10px;
     height: auto;
-    padding: 15px 0;
+    padding: 20px 0;
   }
 
   .down button {
