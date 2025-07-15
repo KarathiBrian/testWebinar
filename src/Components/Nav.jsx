@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Css/Nav.css"
 import pic1 from "../assets/1.jpg"
-
+import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <div>
@@ -9,9 +9,12 @@ const Nav = () => {
 <div className='nav'>
 
 <div className='innerNav'>
-<h5>Home</h5>
+  <Link to="/"><h5>Home</h5></Link>
 
-<img src="" alt="" />
+
+<Link to="/about"> <h5>About</h5></Link>
+
+
 
 
 

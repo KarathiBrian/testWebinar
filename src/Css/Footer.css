@@ -19,15 +19,30 @@ width: 100%;
 height: 100%;
 width: 100%;
 /* background: linear-gradient(to right, #D4A4EB, #F8C4B4); */
-background: linear-gradient(to right, #D8C4E2, #FAD1C4);
+/* background: linear-gradient(to right, #D8C4E2, #FAD1C4); 
+ color: #4A4A4A; */
 
 
+ background-color: #F4EDFF;
+color: #333333;  
 
-color: #4A4A4A;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
+/* flex-direction: row; */
 
+}
 
+.fb,.ig{
+
+font-size: x-large;
+ /* color: #4A0080; */
+cursor: pointer;
+transition: color 0.3s;
+}
+
+.fb:hover,.ig:hover{
+
+color:#FFA07A ;
 }
 

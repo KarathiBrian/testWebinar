@@ -6,7 +6,6 @@ import Nav from '../Components/Nav'
 const All = () => {
   return (
     <div>
-<Nav/>
 <Home/>
 <Footer/>
 
