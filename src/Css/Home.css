@@ -17,7 +17,8 @@ body {
 .containerHold {
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, #F9D7F2 0%, #E0C3FC 100%);
+  background: linear-gradient(135deg, #f9d7f2 0%, #e0c3fc 100%);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,13 +44,11 @@ body {
 .up img {
   height: 100%;
   width: 100%;
-  /* object-fit: cover;  */
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* Show desktop image by default */
 .desktop-image {
   display: block;
 }
@@ -61,7 +60,7 @@ body {
 .down {
   height: 30%;
   width: 100%;
-  background-color: #E8DDE2;
+  background-color: #e8dde2;
   border-radius: 0 0 10px 10px;
   display: flex;
   gap: 80px;
@@ -75,8 +74,8 @@ body {
   width: 25%;
   border-radius: 10px;
   border: none;
-  background-color: #D35400;
-  color: #FFFFFF;
+  background-color: #d35400;
+  color: #ffffff;
   font-size: 1.1em;
   font-weight: 500;
   cursor: pointer;
@@ -85,12 +84,10 @@ body {
 }
 
 .down button:hover {
-  background-color: #5A82C1;
+  background-color: #5a82c1;
   transform: translateY(-2px) scale(1.05);
   box-shadow: 0 4px 10px rgba(106, 13, 173, 0.5);
 }
-
-/* ✅ Mobile responsiveness */
 
 @media screen and (max-width: 1024px) {
   .holder {
@@ -115,10 +112,6 @@ body {
     font-size: 1em;
   }
 
-
-
-
-  /* Show mobile image, hide desktop image */
   .desktop-image {
     display: none;
   }
@@ -165,9 +158,6 @@ body {
   }
 }
 
-
-
-/* === Desktop view only === */
 @media screen and (min-width: 1025px) {
   .outerBig {
     padding-top: 13vh;
@@ -177,4 +167,3 @@ body {
     z-index: 999;
   }
 }
-

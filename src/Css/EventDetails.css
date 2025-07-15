@@ -1,14 +1,9 @@
-body{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-
-
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.yes{
-
-padding-top: 3vh;
-
-
+.yes {
+  padding-top: 3vh;
 }

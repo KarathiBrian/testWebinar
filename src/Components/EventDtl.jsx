@@ -1,7 +1,6 @@
 import React from 'react'
 import "../Css/EventDtl.css"
-import moc1 from "../assets/m1.jpeg"
-import moc2 from "../assets/m2.jpeg"
+
 
 const EventDtl = () => {
   return (
@@ -18,13 +17,13 @@ const EventDtl = () => {
               </div>
               <div className='leftUpContent'>
                 <ul>
-                  <li>Do you have a story, a life experience but don’t know where to start sharing it?</li>
+                  <li>Do you have a story, a life experience but don't know where to start sharing it?</li>
                   <li>Have you gone through something and now wonder, “Can God use this?</li>
                   <li>Are you ready to turn your past into purpose, and even income?</li>
 
                 </ul>
                 <h5> Then this 90-minute transformational webinar is for YOU.
-                  It’s time to take what you’ve lived, and turn it into something powerful.
+                  It’s time to take what you've lived, and turn it into something powerful.
                 </h5>
 
               </div>
@@ -32,7 +31,6 @@ const EventDtl = () => {
 
             </div>
             <div className='rightUp'>
-              {/* <img src={moc1} alt="" /> */}
 
 
 

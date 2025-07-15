@@ -2,13 +2,12 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #F9F6F2; /* Cream White */
+  background-color: #f9f6f2;
 }
 
 .bigEvent {
   height: 70vh;
   width: 100%;
-
 }
 
 .contEvent {
@@ -18,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #C9C5E0; /* Pale Plum to contrast with leftUp elements */
+  background-color: #c9c5e0;
 }
 
 .upAbout {
@@ -37,7 +36,7 @@ body {
 .whatHead {
   height: 10%;
   width: 100%;
-  background-color: #F0E8E0; /* Warm Ivory for a softer look */
+  background-color: #f0e8e0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,19 +44,19 @@ body {
 }
 
 .whatHead h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 28px; /* Your size */
-  line-height: 1.4; /* Your line-height */
-  color: #2A677A; /* Deep Teal */
-  letter-spacing: 0.02em; /* Your spacing */
-  margin: 0; /* Your margin */
+  font-size: 28px;
+  line-height: 1.4;
+  color: #2a677a;
+  letter-spacing: 0.02em;
+  margin: 0;
 }
 
 .leftUpContent {
   height: 90%;
   width: 100%;
-  background-color: #F0E8E0; /* Warm Ivory to match whatHead */
+  background-color: #f0e8e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,53 +66,52 @@ body {
 
 .leftUpContent ul {
   list-style: none;
-  padding: 0; /* Your padding */
-  margin: 0 0 12px 0; /* Your margin */
-  max-width: 100%; /* Your max-width */
+  padding: 0;
+  margin: 0 0 12px 0;
+  max-width: 100%;
 }
 
 .leftUpContent ul li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 16px; /* Your size */
-  line-height: 1.6; /* Your line-height */
-  color: #333333; /* Charcoal Gray */
-  margin-bottom: 8px; /* Your margin */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin-bottom: 8px;
   display: flex;
   align-items: center;
-  word-break: break-word; /* Your word-break */
+  word-break: break-word;
 }
 
 .leftUpContent ul li::before {
-  content: '♥'; /* Your icon */
-  font-size: 16px; /* Your size */
-  color: #F8B8C4; /* Blush Pink accent (from your code) */
-  margin-right: 8px; /* Your margin */
+  content: "♥";
+  font-size: 16px;
+  color: #f8b8c4;
+  margin-right: 8px;
 }
 
 .leftUpContent h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
-  font-size: 18px; /* Your size */
-  line-height: 1.5; /* Your line-height */
-  color: #333333; /* Charcoal Gray */
-  margin: 12px 0 0 0; /* Your margin */
-  max-width: 100%; /* Your max-width */
-  word-break: break-word; /* Your word-break */
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  margin: 12px 0 0 0;
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .rightUp {
   height: 100%;
   width: 40%;
-  background: linear-gradient(rgba(230, 234, 240, 0.2), rgba(230, 234, 240, 0.2)), url("../assets/m1.jpeg");
+  background: linear-gradient(
+      rgba(230, 234, 240, 0.2),
+      rgba(230, 234, 240, 0.2)
+    ),
+    url("../assets/a8.jpeg");
   background-size: cover;
   border-radius: 0 10px 10px 0;
 }
-
-
-
-
-
 
 @media (max-width: 768px) {
   .upAbout {
@@ -122,7 +120,8 @@ body {
     height: auto;
   }
 
-  .leftUp, .rightUp {
+  .leftUp,
+  .rightUp {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -156,8 +155,6 @@ body {
   }
 }
 
-
-
 @media (max-width: 480px) {
   .bigEvent {
     height: auto;
@@ -174,7 +171,8 @@ body {
     width: 100%;
   }
 
-  .leftUp, .rightUp {
+  .leftUp,
+  .rightUp {
     width: 100%;
     height: auto;
   }
@@ -198,10 +196,3 @@ body {
     font-size: 15px;
   }
 }
-
-
-
-
-
-
-

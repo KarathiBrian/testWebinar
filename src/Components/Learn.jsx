@@ -4,7 +4,7 @@ import "../Css/Learn.css";
 const Learn = () => {
   return (
     <div>
-      <div className='bigLearn'> 
+      <div className='bigLearn'>
         <div className='contLearn'>
           <h2>WHAT YOU'LL LEARN</h2>
           <div className='learnGrid'>
@@ -14,7 +14,7 @@ const Learn = () => {
             </div>
             <div className='gridItem'>
               <h4>From Silence to Significance</h4>
-              <p>Why your story matters—even if it’s not dramatic</p>
+              <p>Why your story matters—even if it's not dramatic</p>
             </div>
             <div className='gridItem'>
               <h4>Dig It Out & Speak It Loud</h4>

@@ -7,26 +7,26 @@ const Footer = () => {
   return (
     <div>
 
-<div className='footerBig'>
-<div className='containerFooter'>
+      <div className='footerBig'>
+        <div className='containerFooter'>
 
-  <a href="https://www.facebook.com/p/Rev-Joyce-Kariuki-100067634826893/">
-<FaFacebook className='fb' />
-</a>
-
-
-
-<p> © Copyright 2025 </p>
+          <a href="https://www.facebook.com/p/Rev-Joyce-Kariuki-100067634826893/">
+            <FaFacebook className='fb' />
+          </a>
 
 
-<a href="https://www.instagram.com/ladyjoycekariuki/">
 
-<FaInstagram className='ig' />
+          <p> © Copyright 2025 </p>
 
-</a>
 
-</div>
-</div>
+          <a href="https://www.instagram.com/ladyjoycekariuki/">
+
+            <FaInstagram className='ig' />
+
+          </a>
+
+        </div>
+      </div>
     </div>
   )
 }

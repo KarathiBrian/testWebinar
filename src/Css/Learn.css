@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #F9F6F2; /* Cream White */
+  background-color: #f9f6f2; 
 }
 
 .bigLearn {
@@ -15,7 +15,7 @@ body {
 
 .contLearn {
   width: 90%;
-  background: radial-gradient(circle, #F5E8D7, #D8D6F0);
+  background: radial-gradient(circle, #f5e8d7, #d8d6f0);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,11 +25,11 @@ body {
 }
 
 .contLearn h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.4;
-  color: #2A677A;
+  color: #2a677a;
   margin: 0 0 20px 0;
   text-align: center;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .gridItem {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -52,20 +52,20 @@ body {
 
 .gridItem:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  border: 1px solid #D4A017;
+  border: 1px solid #d4a017;
 }
 
 .gridItem h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.4;
-  color: #2A677A;
+  color: #2a677a;
   margin: 0 0 8px 0;
 }
 
 .gridItem p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -74,7 +74,6 @@ body {
   max-width: 100%;
 }
 
-/* Mobile Adjustments */
 @media (max-width: 768px) {
   .learnGrid {
     grid-template-columns: 1fr;
@@ -102,7 +101,6 @@ body {
   }
 }
 
-/* Tablet/Desktop Enhancements */
 @media (min-width: 768px) {
   .contLearn {
     width: 70%;

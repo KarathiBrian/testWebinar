@@ -1,16 +1,15 @@
 import React from 'react';
 import '../Css/BonusOffer.css';
-import {useNavigate} from "react-router-dom"
-
+import { useNavigate } from "react-router-dom"
 
 const BonusOffer = () => {
-const navigate= useNavigate()
+  const navigate = useNavigate()
 
-const registerBonus=()=>{
+  const registerBonus = () => {
 
-navigate("/register")
+    navigate("/register")
 
-}
+  }
 
   return (
     <section className="bonus-section">

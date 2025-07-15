@@ -1,17 +1,14 @@
 import React from 'react';
 import "../Css/EventDtl2.css";
-import image from "../assets/4.jpeg";
+import image from "../assets/F2.jpeg";
 import { useNavigate } from 'react-router-dom';
 
-
 const EventDtl2 = () => {
-const navigate= useNavigate()
-const registerEvent=()=>{
+  const navigate = useNavigate();
 
-navigate("/register")
-
-}
-
+  const registerEvent = () => {
+    navigate("/register");
+  };
 
   return (
     <div>

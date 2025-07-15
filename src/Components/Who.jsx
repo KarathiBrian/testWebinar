@@ -11,14 +11,13 @@ const Who = () => {
         <div className='contWho'>
           <div className='contSmall'>
             <div className='leftWho'>
-              {/* Add image src here, e.g., <img src="../assets/4.jpeg" alt="Event Visual" /> if preferred */}
             </div>
             <div className='rightWho'>
               <div className='cbx'>
-                <p>A woman who’s been through something but never told her story</p>
+                <p>A woman who's been through something but never told her story</p>
               </div>
               <div className='cbx'>
-                <p>A woman who knows she’s called to help others heal</p>
+                <p>A woman who knows she's called to help others heal</p>
               </div>
               <div className='cbx'>
                 <p>A woman who wants to grow in confidence, purpose, and maybe even income</p>

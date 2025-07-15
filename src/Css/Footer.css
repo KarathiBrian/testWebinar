@@ -1,48 +1,38 @@
-body{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.footerBig{
-height: 10vh;
-width: 100%;
-
-
+.footerBig {
+  height: 10vh;
+  width: 100%;
 }
 
+.containerFooter {
+  height: 100%;
+  width: 100%;
 
+  background-color: #f4edff;
+  color: #333333;
 
-.containerFooter{
-
-height: 100%;
-width: 100%;
-/* background: linear-gradient(to right, #D4A4EB, #F8C4B4); */
-/* background: linear-gradient(to right, #D8C4E2, #FAD1C4); 
- color: #4A4A4A; */
-
-
- background-color: #F4EDFF;
-color: #333333;  
-
-display: flex;
-justify-content: space-around;
-align-items: center;
-/* flex-direction: row; */
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.fb,.ig{
-
-font-size: x-large;
- /* color: #4A0080; */
-cursor: pointer;
-transition: color 0.3s;
+.containerFooter a {
+  color: darkslateblue;
 }
 
-.fb:hover,.ig:hover{
-
-color:#FFA07A ;
+.fb,
+.ig {
+  font-size: x-large;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
+.fb:hover,
+.ig:hover {
+  color: #ffa07a;
+}

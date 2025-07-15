@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   background-color: #F9F6F2;
 }
 
-/* Section styling */
 .bonus-section {
   width: 100%;
   min-height: 100vh;
@@ -23,7 +21,6 @@ body {
   padding: 2rem 1rem;
 }
 
-/* Container */
 .bonus-container {
   max-width: 800px;
   width: 100%;
@@ -34,7 +31,6 @@ body {
   text-align: center;
 }
 
-/* Content */
 .bonus-content {
   display: flex;
   flex-direction: column;
@@ -42,7 +38,6 @@ body {
   align-items: center;
 }
 
-/* Typography */
 .bonus-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -83,7 +78,6 @@ body {
   text-decoration: underline;
 }
 
-/* CTA Button */
 .bonus-cta {
   padding: 0.75rem 2rem;
   font-size: 1.2rem;
@@ -105,7 +99,6 @@ body {
   transform: translateY(0);
 }
 
-/* Tablet responsiveness */
 @media (max-width: 768px) {
   .bonus-container {
     padding: 2rem;
@@ -125,7 +118,6 @@ body {
   }
 }
 
-/* Mobile responsiveness */
 @media (max-width: 480px) {
   .bonus-title {
     font-size: 1.75rem;
