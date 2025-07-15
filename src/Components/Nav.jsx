@@ -9,6 +9,7 @@ const Nav = () => {
 <div className='nav'>
 
 <div className='innerNav'>
+<h5>Home</h5>
 
 <img src="" alt="" />
 
